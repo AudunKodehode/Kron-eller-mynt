@@ -1,0 +1,68 @@
+body {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 8, 46);
+}
+div#spilleomrade {
+  width: 80vw;
+  height: 100vh;
+  background-color: rgb(9, 9, 94);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-style: ridge;
+  border-color: white;
+}
+#tittelboks {
+  width: 500px;
+  height: 80px;
+  background-color: rgb(8, 8, 46);
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 40px;
+  font-family: fantasy;
+}
+#mynt {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 250px;
+  background-image: url("//");
+  background-repeat: no-repeat;
+  background-size: 200px, 200px;
+}
+#slåmyntknapp {
+  font-family: fantasy;
+  width: 400px;
+  height: 60px;
+  border-radius: 50px;
+  position: fixed;
+  top: 85%;
+  font-size: 35px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  visibility: visible;
+}
+#restartbutton {
+  font-family: fantasy;
+  width: 400px;
+  height: 60px;
+  border-radius: 50px;
+  position: fixed;
+  top: 85%;
+  font-size: 35px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+#slåmyntknapp:active {
+  transform: scale(0.95);
+  transform-origin: bottom;
+}
