@@ -29,14 +29,16 @@ function myntbakgrunn(valg) {
   }
   if (valg == 1) {
     //kron
-    document.getElementById("mynt").style.backgroundImage =
-      "url(/pictures/kron.png)";
-    console.log("Krone!");
+    document.getElementById(
+      "mynt"
+    ).style.backgroundImage = `url("/pictures/kron.png")`;
+    console.log("Kron!");
   }
   if (valg == 2) {
     //mynt
-    document.getElementById("mynt").style.backgroundImage =
-      "url(/pictures/mynt.png)";
+    document.getElementById(
+      "mynt"
+    ).style.backgroundImage = `url("/pictures/mynt.png")`;
     console.log("Mynt!");
   }
 }
