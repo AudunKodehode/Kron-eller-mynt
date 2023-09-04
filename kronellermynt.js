@@ -25,18 +25,18 @@ function myntbakgrunn(valg) {
   if (valg == 0) {
     //ingen
     document.getElementById("mynt").style.backgroundImage = "url(//)";
-    console.log('Restart')
+    console.log("Restart");
   }
   if (valg == 1) {
     //kron
     document.getElementById("mynt").style.backgroundImage =
-      "url(https://i.ibb.co/T0B5sm8/kron.png)";
-      console.log('Krone!')
+      "url(/pictures/kron.png)";
+    console.log("Krone!");
   }
   if (valg == 2) {
     //mynt
     document.getElementById("mynt").style.backgroundImage =
-      "url(https://i.ibb.co/BL7MZTQ/mynt.png)";
-      console.log('Mynt!')
+      "url(/pictures/mynt.png)";
+    console.log("Mynt!");
   }
 }
